@@ -12,7 +12,7 @@ public class StartButton : MonoBehaviour
     public StartTextController startTextController;
 
     // Method to handle user interaction with the control button
-    private void OnMouseDown()
+    public void OnMouseDown()
     {
         // Check if the onStartGame event is assigned any listeners
         if (onStartGame != null)
